@@ -13,10 +13,10 @@ window.PAPER_STATUS = Object.freeze({
     label: "審查中",
     description: "尚未收到正式結果"
   },
-  lastUpdated: "2026/10/02",
+  lastUpdated: "2026-10-02",
   history: [
     {
-      date: "2026/10/02",
+      date: "2026-10-02",
       title: "狀態確認",
       detail: "目前仍在審查中，尚未收到正式結果。"
     }
