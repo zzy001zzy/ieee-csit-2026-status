@@ -12,6 +12,14 @@
     if (node) node.textContent = value;
   };
 
+  const optionalText = (id, value) => {
+    const node = document.getElementById(id);
+    if (!node) return;
+    const normalized = String(value || "").trim();
+    node.textContent = normalized;
+    node.hidden = !normalized;
+  };
+
   document.title = data.pageTitle;
   text("page-title", data.pageTitle);
   text("venue", data.venue);
@@ -21,10 +29,10 @@
   text("role", data.role);
   text("status-label", data.status.label);
   text("status-description", data.status.description);
-  text("status-note", data.status.note);
+  optionalText("status-note", data.status.note);
   text("updated-date", data.lastUpdated);
   text("evidence-title", data.evidence.title);
-  text("evidence-message", data.evidence.message);
+  optionalText("evidence-message", data.evidence.message);
 
   const badge = document.getElementById("status-badge");
   badge.dataset.status = data.status.code;

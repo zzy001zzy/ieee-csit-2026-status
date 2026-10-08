@@ -4,7 +4,7 @@
  */
 window.PAPER_STATUS = Object.freeze({
   pageTitle: "IEEE CSIT 2026 論文狀態",
-  venue: "IEEE CSIT 2026",
+  venue: "2026 IEEE 20th International Conference on Computer Science and Information Technologies (CSIT)",
   paperTitle: "APR: Compact Analytic-Prior Repair for Traffic-Sign Detection",
   authors: ["Chih-Yuan Cheng", "Bor-Jiunn Hwang"],
   role: "第一作者",
@@ -12,7 +12,7 @@ window.PAPER_STATUS = Object.freeze({
     code: "accepted",
     label: "已接收",
     description: "已收到 CMT 論文決定通知",
-    note: "正式通知原文為 conditionally accepted；尚待完成 camera-ready 與審查意見回覆。"
+    note: ""
   },
   lastUpdated: "2026/10/07",
   history: [
@@ -29,9 +29,9 @@ window.PAPER_STATUS = Object.freeze({
   ],
   evidence: {
     available: true,
-    title: "CMT Decision Email",
-    message: "已核對 2026/10/07 Microsoft CMT 寄發之 Paper #66 決定通知；原文為 conditionally accepted。",
-    url: "",
-    linkLabel: "查看正式通知"
+    title: "Gmail／Microsoft CMT 接收通知",
+    message: "",
+    url: "IEEE_CSIT_2026_Paper66_Decision_Email_Redacted.pdf",
+    linkLabel: "查看 Gmail 接收通知"
   }
 });
