@@ -60,10 +60,10 @@
     history.appendChild(li);
   });
 
-  const evidenceLink = document.getElementById("evidence-link");
-  if (data.evidence.available && data.evidence.url) {
-    evidenceLink.href = data.evidence.url;
-    evidenceLink.textContent = data.evidence.linkLabel;
-    evidenceLink.hidden = false;
+  const evidenceImage = document.getElementById("evidence-image");
+  if (data.evidence.available && data.evidence.imageUrl) {
+    evidenceImage.src = data.evidence.imageUrl;
+    evidenceImage.alt = data.evidence.imageAlt || data.evidence.title;
+    evidenceImage.hidden = false;
   }
 })();

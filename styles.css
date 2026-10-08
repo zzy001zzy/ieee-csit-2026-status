@@ -277,12 +277,13 @@ main {
   margin: 5px 0 0;
 }
 
-.evidence-link {
-  display: inline-block;
-  margin-top: 10px;
-  color: var(--blue);
-  font-weight: 700;
-  text-underline-offset: 3px;
+.evidence-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 14px;
+  border: 1px solid var(--line);
+  background: #fff;
 }
 
 [hidden] {

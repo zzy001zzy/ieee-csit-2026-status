@@ -31,7 +31,7 @@ window.PAPER_STATUS = Object.freeze({
     available: true,
     title: "Gmail／Microsoft CMT 接收通知",
     message: "",
-    url: "IEEE_CSIT_2026_Paper66_Decision_Email_Redacted.pdf",
-    linkLabel: "查看 Gmail 接收通知"
+    imageUrl: "IEEE_CSIT_2026_Paper66_Decision_Email_Redacted.png",
+    imageAlt: "Microsoft CMT 於 2026 年 10 月 7 日寄發之 Gmail 接收通知；Paper #66 獲 conditionally accepted，電子郵件與第三人聯絡資訊已遮蔽。"
   }
 });
