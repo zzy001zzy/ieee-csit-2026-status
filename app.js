@@ -41,7 +41,7 @@
   stateMark.dataset.status = data.status.code;
 
   const history = document.getElementById("history-list");
-  data.history.forEach((item) => {
+  (history ? data.history : []).forEach((item) => {
     const li = document.createElement("li");
     li.className = "history-item";
 

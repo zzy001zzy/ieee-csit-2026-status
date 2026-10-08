@@ -37,7 +37,7 @@ body {
 
 .page-shell {
   width: min(960px, calc(100% - 40px));
-  margin: 42px auto;
+  margin: 24px auto;
   overflow: hidden;
   background: var(--paper);
   border: 1px solid #c7cbd0;
@@ -45,7 +45,7 @@ body {
 }
 
 .hero {
-  padding: 42px 48px 36px;
+  padding: 24px 42px 22px;
   background: linear-gradient(180deg, #f2f6fb 0%, var(--blue-pale) 100%);
   border-top: 6px solid var(--blue);
   border-bottom: 1px solid var(--line);
@@ -81,7 +81,7 @@ h1 {
   align-items: center;
   flex-wrap: wrap;
   gap: 12px 18px;
-  margin-top: 24px;
+  margin-top: 14px;
 }
 
 .status-badge {
@@ -125,11 +125,11 @@ h1 {
 }
 
 main {
-  padding: 34px 48px 48px;
+  padding: 26px 42px 34px;
 }
 
 .section + .section {
-  margin-top: 30px;
+  margin-top: 22px;
 }
 
 .section-heading {
@@ -200,7 +200,7 @@ main {
   background: var(--yellow-pale);
   color: var(--amber);
   font-family: var(--kai);
-  font-size: 1.55rem;
+  font-size: 3.1rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-align: center;
@@ -262,7 +262,7 @@ main {
 }
 
 .evidence-box {
-  padding: 22px 24px;
+  padding: 16px 18px 18px;
   border: 1px solid var(--line);
   background: var(--blue-pale);
 }
@@ -314,7 +314,7 @@ main {
   }
 
   .hero {
-    padding: 30px 22px 26px;
+    padding: 20px 18px 18px;
   }
 
   h1 {
@@ -324,7 +324,7 @@ main {
   }
 
   main {
-    padding: 26px 18px 36px;
+    padding: 22px 18px 28px;
   }
 
   .info-table {
