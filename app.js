@@ -21,13 +21,16 @@
   text("role", data.role);
   text("status-label", data.status.label);
   text("status-description", data.status.description);
+  text("status-note", data.status.note);
   text("updated-date", data.lastUpdated);
   text("evidence-title", data.evidence.title);
   text("evidence-message", data.evidence.message);
 
   const badge = document.getElementById("status-badge");
   badge.dataset.status = data.status.code;
-  document.querySelector(".state-mark").textContent = data.status.label;
+  const stateMark = document.querySelector(".state-mark");
+  stateMark.textContent = data.status.label;
+  stateMark.dataset.status = data.status.code;
 
   const history = document.getElementById("history-list");
   data.history.forEach((item) => {
