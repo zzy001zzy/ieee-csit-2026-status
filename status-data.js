@@ -15,6 +15,10 @@ window.PAPER_STATUS = Object.freeze({
     note: ""
   },
   lastUpdated: "2026/10/07",
+  previousUpdate: {
+    date: "2026/10/02",
+    status: "審查中"
+  },
   history: [
     {
       date: "2026/10/07",
@@ -31,7 +35,7 @@ window.PAPER_STATUS = Object.freeze({
     available: true,
     title: "Gmail／Microsoft CMT 接收通知",
     message: "",
-    imageUrl: "IEEE_CSIT_2026_Paper66_Decision_Email.png",
+    imageUrl: "IEEE_CSIT_2026_Paper66_Decision_Email_Full.png",
     imageAlt: "Microsoft CMT 於 2026 年 10 月 7 日寄發之 Gmail 接收通知；Paper #66 獲 conditionally accepted。"
   }
 });

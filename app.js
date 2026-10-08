@@ -31,6 +31,8 @@
   text("status-description", data.status.description);
   optionalText("status-note", data.status.note);
   text("updated-date", data.lastUpdated);
+  text("previous-updated-date", data.previousUpdate.date);
+  text("previous-status-label", data.previousUpdate.status);
   text("evidence-title", data.evidence.title);
   optionalText("evidence-message", data.evidence.message);
 

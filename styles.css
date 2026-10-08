@@ -124,6 +124,10 @@ h1 {
   font-size: 0.98rem;
 }
 
+.previous-update {
+  white-space: nowrap;
+}
+
 main {
   padding: 26px 42px 34px;
 }
