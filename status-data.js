@@ -11,7 +11,7 @@ window.PAPER_STATUS = Object.freeze({
   status: {
     code: "accepted",
     label: "已接收",
-    description: "已收到 CMT 論文決定通知",
+    description: "已收到 CSIT 論文決定通知",
     note: ""
   },
   lastUpdated: "2026/10/07",
